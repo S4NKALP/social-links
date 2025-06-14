@@ -405,3 +405,34 @@ body {
     100% { transform: scale(1); }
 }
 
+/* Matrix Effect */
+.matrix-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    display: none;
+    overflow: hidden;
+}
+
+.matrix-character {
+    position: absolute;
+    color: #0f0;
+    font-family: monospace;
+    font-size: 20px;
+    text-shadow: 0 0 5px #0f0;
+    animation: matrixFall linear infinite;
+}
+
+@keyframes matrixFall {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(100vh);
+    }
+}
+

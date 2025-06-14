@@ -47,6 +47,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     createConfetti();
                 }
             }
+        },
+        'code': {
+            message: '🖥️ Enter The Matrix 🖥️',
+            effect: () => {
+                createMatrixEffect();
+            }
         }
     };
 
@@ -395,6 +401,54 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     `;
     document.head.appendChild(style);
+
+    // Matrix Effect
+    function createMatrixEffect() {
+        // Create container if it doesn't exist
+        let matrixContainer = document.querySelector('.matrix-container');
+        if (!matrixContainer) {
+            matrixContainer = document.createElement('div');
+            matrixContainer.className = 'matrix-container';
+            document.body.appendChild(matrixContainer);
+        }
+
+        // Show container
+        matrixContainer.style.display = 'block';
+
+        // Matrix characters
+        const matrixChars = '日ﾊﾐﾋｰｳｼﾅﾓﾆｻﾜﾂｵﾘｱﾎﾃﾏｹﾒｴｶｷﾑﾕﾗｾﾈｽﾀﾇﾍ012345789:・.=*+-<>¦｜╌ﾘ';
+        
+        // Create falling characters
+        const createCharacter = () => {
+            const character = document.createElement('div');
+            character.className = 'matrix-character';
+            character.style.left = Math.random() * 100 + 'vw';
+            character.style.animationDuration = (Math.random() * 2 + 1) + 's';
+            character.textContent = matrixChars[Math.floor(Math.random() * matrixChars.length)];
+            matrixContainer.appendChild(character);
+
+            // Remove character after animation
+            character.addEventListener('animationend', () => {
+                character.remove();
+            });
+        };
+
+        // Create characters continuously
+        const interval = setInterval(() => {
+            for (let i = 0; i < 5; i++) {
+                createCharacter();
+            }
+        }, 100);
+
+        // Stop after 5 seconds
+        setTimeout(() => {
+            clearInterval(interval);
+            setTimeout(() => {
+                matrixContainer.style.display = 'none';
+                matrixContainer.innerHTML = '';
+            }, 2000);
+        }, 5000);
+    }
 });
 
 // Add ripple effect styles

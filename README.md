@@ -46,9 +46,8 @@ A modern, responsive social media landing page that consolidates all my social m
 ## 🚀 Getting Started
 
 1. Clone this repository:
-
    ```bash
-   git clone https://github.com/S4NKALP/social-links.git
+   git clone https://github.com/yourusername/social-links.git
    ```
 
 2. Open `index.html` in your web browser to view the page.
@@ -66,11 +65,11 @@ A modern, responsive social media landing page that consolidates all my social m
 Want to discover some fun hidden features? Here are some hints:
 
 1. 🎯 Try typing these magic words:
-
    - Type "wow" for a surprise effect
    - Type "fun" to start a color party
    - Type "spin" to see things go round and round
    - Type "boom" for an explosive surprise
+   - Type "code" to enter the Matrix
 
 2. 🕹️ Remember the classic Konami Code? Try it here!
    (Up, Up, Down, Down, Left, Right, Left, Right, B, A)
@@ -78,7 +77,15 @@ Want to discover some fun hidden features? Here are some hints:
 3. 🖼️ The profile picture might have a secret...
    Try clicking it multiple times!
 
-_Note: All effects are temporary and will reset after a few seconds._
+*Note: All effects are temporary and will reset after a few seconds.*
+
+## 📱 Browser Support
+
+- Chrome
+- Firefox
+- Safari
+- Edge
+- Opera
 
 ## 📝 License
 
@@ -89,4 +96,5 @@ This project is open source and available under the [MIT License](LICENSE).
 Created by Sankalp Tharu
 
 - GitHub: [@S4NKALP](https://github.com/S4NKALP)
-- Email: sankalptharu50028@gmail.com
+- LinkedIn: [@1amsanka1p](https://linkedin.com/in/1amsanka1p)
+- Email: sankalptharu50028@gmail.com 
