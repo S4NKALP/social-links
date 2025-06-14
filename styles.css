@@ -204,11 +204,14 @@ body {
     background: #ff4500;
     box-shadow: 0 0 20px rgba(255, 69, 0, 0.3);
 }
-.email:hover { 
-    background: #ea4335;
+.email:hover {
+    background: #EA4335;
     box-shadow: 0 0 20px rgba(234, 67, 53, 0.3);
 }
-
+.portfolio:hover {
+    background: #3498db;
+    box-shadow: 0 0 20px rgba(52, 152, 219, 0.3);
+}
 /* Animations */
 @keyframes float {
     0%, 100% { transform: translateY(0) rotate(0deg); }
@@ -435,4 +438,7 @@ body {
         transform: translateY(100vh);
     }
 }
+
+
+
 
