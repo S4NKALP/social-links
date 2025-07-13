@@ -2,8 +2,7 @@
 
 A modern, responsive social media landing page that consolidates all my social media profiles and contact information in one place. Built with HTML, CSS, and JavaScript, featuring a clean and professional design with smooth animations and hover effects.
 
-<img width="1649" height="926" alt="social-link" src="https://github.com/user-attachments/assets/900fcb3a-85ef-41d0-b1b0-3c7977346dd7" />
-
+<img width="1649" height="926" alt="social-link" src="./assets/showcase.png" />
 
 ## 🌟 Features
 
@@ -49,6 +48,7 @@ A modern, responsive social media landing page that consolidates all my social m
 ## 🚀 Getting Started
 
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/yourusername/social-links.git
    ```
@@ -68,6 +68,7 @@ A modern, responsive social media landing page that consolidates all my social m
 Want to discover some fun hidden features? Here are some hints:
 
 1. 🎯 Try typing these magic words:
+
    - Type "wow" for a surprise effect
    - Type "fun" to start a color party
    - Type "spin" to see things go round and round
@@ -80,7 +81,7 @@ Want to discover some fun hidden features? Here are some hints:
 3. 🖼️ The profile picture might have a secret...
    Try clicking it multiple times!
 
-*Note: All effects are temporary and will reset after a few seconds.*
+_Note: All effects are temporary and will reset after a few seconds._
 
 ## 📱 Browser Support
 
@@ -100,4 +101,4 @@ Created by Sankalp Tharu
 
 - GitHub: [@S4NKALP](https://github.com/S4NKALP)
 - LinkedIn: [@1amsanka1p](https://linkedin.com/in/1amsanka1p)
-- Email: sankalptharu50028@gmail.com 
+- Email: sankalptharu50028@gmail.com
