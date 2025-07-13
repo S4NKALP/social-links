@@ -2,6 +2,9 @@
 
 A modern, responsive social media landing page that consolidates all my social media profiles and contact information in one place. Built with HTML, CSS, and JavaScript, featuring a clean and professional design with smooth animations and hover effects.
 
+<img width="1649" height="926" alt="social-link" src="https://github.com/user-attachments/assets/900fcb3a-85ef-41d0-b1b0-3c7977346dd7" />
+
+
 ## 🌟 Features
 
 - Modern and responsive design
